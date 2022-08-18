@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  
+  .header{ 
+    min-height: 540vh;
+    width: 70;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(52,0,0,1) 12%, rgba(115,0,0,1) 62%);
+    z-index: 10000;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: left;
+  }
+  
+  nav{
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    height: 3vw;
+    justify-content: space-between; 
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+  }
+  nav img{ 
+    width: 150px;
+  }
+  .nav-links{
+    flex: 1;
+    text-align: right;
+  }
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0.02px 15px;
+    position: relative;
+  }
+ 
+  .nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+  }
+
+  .writing {
+    padding:20px;
+    margin-top:30px;
+    height:1500px;
+  }
+.nav-links a:hover {
+    background-color: red;
+    color: white;
+}
+
+.support {
+  flex: 1;
+  text-align: left;
+  display: inline-block;
+  float: left;
+  margin: 14vh;
+}
+
+.support ul li {
+  list-style: none;
+  display: block;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.support ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.supportheading {
+color: rgb(255, 255, 255);
+margin-bottom: 5vh;
+margin-top: -10vh;
+text-align: center
+}
+
+.snstblvdheading {
+  color: rgb(255, 255, 255);
+  margin-bottom: 5vh;
+  margin-top: -10vh;
+  text-align: center
+  }
+
+.contactusheading {
+    color: rgb(255, 255, 255);
+    margin-bottom: 5vh;
+    margin-top: -10vh;
+    text-align: center
+}
+
+.snstblvdheading {
+  color: rgb(255, 255, 255);
+  margin-bottom: 5vh;
+  margin-top: -10vh;
+  text-align: center
+  }
+
+.socialmedia {
+  color: rgb(255, 255, 255);
+  margin-bottom: 5vh;
+  margin-top: -10vh;
+  text-align: center
+  }
+
+.insta {
+  text-align: center;
+}
